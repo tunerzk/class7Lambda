@@ -50,6 +50,10 @@ Configure:
 Task 6 — Get Invoke URL
 
 You’ll get: https://<api-id>.execute-api.<region>.amazonaws.com/prod
+hhttps://aew7bfz66j.execute-api.us-west-2.amazonaws.com/prod/python
+ttps://aew7bfz66j.execute-api.us-west-2.amazonaws.com/prod/node?name=Malgus
+
+
 Task 7 — Test API
 
 Chewbacca Python: curl "https://.execute-api..amazonaws.com/prod/python?name=Chewbacca" Chewbacca Node: curl "https://.execute-api..amazonaws.com/prod/node?name=Malgus"
