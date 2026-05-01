@@ -56,6 +56,9 @@ Now we need to confirm the second half:
 👉 that calling it WITH your token returns 200 OK.
 ####### Test with token results######
 <img width="1081" height="297" alt="image" src="https://github.com/user-attachments/assets/031ae221-45c9-4a03-b18d-64dfc017c367" />
+
+Auth0 → JWT → API Gateway → Authorizer → Lambda → Response
+All green.
 That means:
 
 *Your token was accepted
