@@ -11,6 +11,8 @@ Method → HTTP verb (GET)
 Integration → backend (Lambda)
 Deployment → publish changes
 Task 1 — Create REST API
+<img width="1406" height="277" alt="image" src="https://github.com/user-attachments/assets/c1973294-9b10-4abd-bef6-63e5f605ee39" />
+
 
 📍 Navigation
 AWS Console → API Gateway
@@ -27,6 +29,8 @@ Create /node
 Same process:
     Resource Name: node
     Path: /node
+   <img width="1229" height="243" alt="image" src="https://github.com/user-attachments/assets/c6db16ff-3d3d-4f11-89ac-5a5c84397a18" />
+ 
 Task 3 — Create Methods
 
 For /python Select /python Click Actions → Create Method Choose: GET
@@ -34,6 +38,8 @@ For /python Select /python Click Actions → Create Method Choose: GET
 Integration Integration type: Lambda Function Select: chewbacca-python-lambda Click Save
 
 Repeat for /node Connect to: chewbacca-node-lambda
+<img width="1293" height="525" alt="image" src="https://github.com/user-attachments/assets/4cb25b01-0ca7-49f1-a32b-73d63fc142bf" />
+
 
 Task 4 — Lambda Permissions
 
